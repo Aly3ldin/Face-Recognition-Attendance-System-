@@ -45,7 +45,7 @@ Once authenticated, employees are directed to their dashboard where they can vie
 
 - **Frontend**: Html,js, CSS
 - **Backend**:  Python Flask
-- **Face Recognition**: TensorFlow.js / face-api.js / OpenCV
+- **Face Recognition**: TensorFlow.js / face-api.js / OpenCV /mediapipe
 - **Database**: sql
 
 ---
