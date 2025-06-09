@@ -43,10 +43,10 @@ Once authenticated, employees are directed to their dashboard where they can vie
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: React.js, TailwindCSS
-- **Backend**: Node.js / Express (or Python Flask)
+- **Frontend**: Html,js, CSS
+- **Backend**:  Python Flask
 - **Face Recognition**: TensorFlow.js / face-api.js / OpenCV
-- **Database**: MongoDB / PostgreSQL
+- **Database**: sql
 
 ---
 
