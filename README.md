@@ -19,12 +19,12 @@ FaceAttend is a modern, secure, and user-friendly web-based attendance system th
 ### 🏠Home Page
 
 when you open our website, you will see this in first 😉
-![Home]![Image](https://github.com/user-attachments/assets/dac7b52f-62fb-44ce-ae30-dbec19beabba)
+![Image](https://github.com/user-attachments/assets/dac7b52f-62fb-44ce-ae30-dbec19beabba)
 ### 📝 Account Creation Page
 
 Employees register by entering personal details and uploading a face photo.
 
-![Register](./mnt/data/screencapture-face-time-attendance-now-lovable-app-register-2025-06-09-20_08_43.png)
+![Image](./mnt/data/screencapture-face-time-attendance-now-lovable-app-register-2025-06-09-20_08_43.png)
 
 ---
 
@@ -32,7 +32,7 @@ Employees register by entering personal details and uploading a face photo.
 
 Employees enter their Employee ID and authenticate using their face.
 
-![Sign In](./mnt/data/screencapture-face-time-attendance-now-lovable-app-signin-2025-06-09-20_10_05.png)
+![Image](./mnt/data/screencapture-face-time-attendance-now-lovable-app-signin-2025-06-09-20_10_05.png)
 
 ---
 
@@ -40,7 +40,7 @@ Employees enter their Employee ID and authenticate using their face.
 
 Once authenticated, employees are directed to their dashboard where they can view the current time, date, profile, and mark attendance.
 
-![Dashboard](./mnt/data/screencapture-face-time-attendance-now-lovable-app-dashboard-2025-06-09-20_11_38.png)
+![Image](./mnt/data/screencapture-face-time-attendance-now-lovable-app-dashboard-2025-06-09-20_11_38.png)
 
 ---
 
