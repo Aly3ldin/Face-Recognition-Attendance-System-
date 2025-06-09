@@ -31,9 +31,7 @@ Employees register by entering personal details and uploading a face photo.
 ### 🔐 Sign-In with Face ID
 
 Employees enter their Employee ID and authenticate using their face.
-
-![Image](./mnt/data/screencapture-face-time-attendance-now-lovable-app-signin-2025-06-09-20_10_05.png)
-
+![Image](https://github.com/user-attachments/assets/1d84f06a-003d-4129-87bd-58e8e1e9d144)
 ---
 
 ### 📊 Dashboard
