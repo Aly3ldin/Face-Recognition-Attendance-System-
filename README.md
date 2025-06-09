@@ -24,7 +24,7 @@ when you open our website, you will see this in first 😉
 
 Employees register by entering personal details and uploading a face photo.
 
-![Image](./mnt/data/screencapture-face-time-attendance-now-lovable-app-register-2025-06-09-20_08_43.png)
+![Image](https://github.com/user-attachments/assets/2d647ce2-ce74-48fe-af01-af9a5291c76d)
 
 ---
 
