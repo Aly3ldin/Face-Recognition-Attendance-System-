@@ -91,4 +91,4 @@ Ideal for:
 
 ## 📧 Contact
 
-For feedback or questions, contact: **admin@example.com**
+For feedback or questions, contact: **EELU2025@project.com**
