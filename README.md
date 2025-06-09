@@ -14,7 +14,11 @@ FaceAttend is a modern, secure, and user-friendly web-based attendance system th
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Frontend
+
+### 🏠Home Page
+
+when you open our website, you will see this in first 😉
 
 ### 📝 Account Creation Page
 
