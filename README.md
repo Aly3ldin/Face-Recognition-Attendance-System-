@@ -38,8 +38,7 @@ Employees enter their Employee ID and authenticate using their face.
 
 Once authenticated, employees are directed to their dashboard where they can view the current time, date, profile, and mark attendance.
 
-![Image](./mnt/data/screencapture-face-time-attendance-now-lovable-app-dashboard-2025-06-09-20_11_38.png)
-
+![Image](https://github.com/user-attachments/assets/0a232213-4ac0-4c68-b7a2-9b2e04aeea4c)
 ---
 
 ## 🛠️ Technologies Used
