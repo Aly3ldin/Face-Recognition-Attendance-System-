@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(40deg, rgb(255, 255, 255), rgb(96, 96, 96));
+            color: black;
+        }
+        .card {
+            background: linear-gradient(40deg, rgb(96, 96, 96), rgb(255, 255, 255));
+            color: black;
+        }
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .loading-overlay.active {
+            display: flex;
+        }
+        .spinner-border {
+            width: 3rem;
+            height: 3rem;
+        }
+    </style>
+    <script>
+        function authenticateUser() {
+            showLoadingOverlay();
+            fetch('/api/user_data')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.status);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    hideLoadingOverlay();
+                    setTimeout(function() {
+                        window.location.href = '/user_details?name=' + encodeURIComponent(data.name) + '&national_id=' + encodeURIComponent(data.national_id);
+                    }, 2000);
+                })
+                .catch(error => {
+                    hideLoadingOverlay();
+                    console.error('Error:', error);
+                    alert('Authentication failed. User not recognized.');
+                });
+        }
+        function startAuthentication() {
+            authenticateUser();
+        }
+        function showLoadingOverlay() {
+            document.getElementById('loadingOverlay').classList.add('active');
+        }
+        function hideLoadingOverlay() {
+            document.getElementById('loadingOverlay').classList.remove('active');
+        }
+        window.onload = startAuthentication;
+    </script>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card text-center bg-light">
+            <div class="card-body">
+                <h1 class="card-title">Login</h1>
+                <img src="{{ url_for('video_feed') }}" class="img-fluid" width="640" height="480">
+                <p class="card-text">Authenticating...</p>
+                <a href="{{ url_for('logout') }}" class="btn btn-danger mt-3">Logout</a> <!-- Logout Button -->
+            </div>
+        </div>
+    </div>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+</body>
+</html>
