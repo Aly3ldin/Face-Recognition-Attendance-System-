@@ -19,7 +19,7 @@ FaceAttend is a modern, secure, and user-friendly web-based attendance system th
 ### 🏠Home Page
 
 when you open our website, you will see this in first 😉
-
+![Home]![Image](https://github.com/user-attachments/assets/dac7b52f-62fb-44ce-ae30-dbec19beabba)
 ### 📝 Account Creation Page
 
 Employees register by entering personal details and uploading a face photo.
