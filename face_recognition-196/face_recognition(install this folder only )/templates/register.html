@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(40deg, rgb(255, 255, 255), rgb(96, 96, 96));
+            color: black;
+        }
+        .card {
+            background: linear-gradient(40deg, rgb(96, 96, 96), rgb(255, 255, 255));
+            color: black;
+        }
+        .btn-light-green {
+            background-color: #f0f5f0;
+            border-color: #fbfbfb;
+            color: #1073c4;
+        }
+        .btn-light-green:hover {
+            background-color: #19c730;
+            border-color: #19c730;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card text-center bg-light">
+            <div class="card-body">
+                <h1 class="card-title">Register</h1>
+                {% if error %}
+                <p class="card-text text-danger">{{ error }}</p>
+                {% endif %}
+                <form method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="national_id">National ID:</label>
+                        <input type="text" class="form-control" id="national_id" name="national_id">
+                    </div>
+                    <div class="form-group">
+                        <label for="image">Image:</label>
+                        <input type="file" class="form-control-file" id="image" name="image">
+                    </div>
+                    <button type="submit" class="btn btn-light-green mx-2">Register</button>
+                </form>
+                <hr>
+                <p><a href="{{ url_for('index') }}" class="btn btn-light-green mx-2">Go to Home</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
